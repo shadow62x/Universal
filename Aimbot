@@ -1,3 +1,8 @@
+local r = 1000  -- ~ / This is the radius. Lower Radius = Worse \ ~ --
+local pName = "Head" -- ~ / This is the part name that the aimbot will aim at. Change this to another body part like "Torso", "HumanoidRootPart", etc. if you want it to aim at another body part. \ ~ --
+local s = 0  -- ~ / This is the Smoothness of the aimbot. Basically - 0 = not legit - 1 = legit \ ~ --
+local tKey = Enum.KeyCode.MouseRightButton  -- ~ / Key to toggle the aimbot - You can find the KeyCodes at https://create.roblox.com/docs/reference/engine/enums/KeyCode \ ~ --
+
 local plr = game.Players.LocalPlayer
 local m = plr:GetMouse()
 local ps = game:GetService("Players")
